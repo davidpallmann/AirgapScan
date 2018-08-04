@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Airgap Scan",
+  "author": "David Pallmann",
+  "version": "1.0",
+  "description": "Scans the page for Internet references. Useful for testing software meant for air-gapped environments (without public Internet access).",
+  "background": {
+	"scripts": [ "background.js" ]
+  },
+  "icons": {
+	"128": "icon-128.png"
+  },
+  "browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Airgap Scanner"
+ },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+	  "css": ["jquery-confirm.min.css"],
+      "js": ["jquery-2.2.4.min.js", "jquery-confirm.min.js", "content.js"]
+    }
+  ],
+  "permissions" : [
+    "contextMenus"
+    ]
+}
