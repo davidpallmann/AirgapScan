@@ -25,6 +25,7 @@ In the JavaScript code for AirgapScan, content.js contains an array named Allowa
 
 	var allowableNetworks = [ '://10.',       // allowed: [http|https]://10.x.x.x 
 				  '://www.mytestdomain.com'  // allowed: [http|https]://www.mytestdomain.com...
+				  '://localhost'             // allowed: [http|https]://localhost...
 				];
 
 <b>Alert Example</b>
