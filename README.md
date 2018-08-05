@@ -27,6 +27,8 @@ In the JavaScript code for AirgapScan, content.js contains an array named Allowa
 				  '://www.mytestdomain.com'  // allowed: [http|https]://www.mytestdomain.com...
 				];
 
-<b>Alert Example</b>
+<b>Alert Examples</b>
 
 ![alt text](/screencap_alert1.png)
+
+![alt text](/screencap_ok.png)
