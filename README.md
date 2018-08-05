@@ -30,3 +30,5 @@ In the JavaScript code for AirgapScan, content.js contains an array named Allowa
 <b>Alert Example</b>
 
 ![alt text](/screencap_alert1.png)
+
+![alt text](/screencap_ok.png)
