@@ -14,7 +14,7 @@ function airgapScan() {
 
 	console.log('--- Airgap Scan ---');
 
-	var allowableNetworks = [ '://10.',                  // allowed: [http|https]://10.x.x.x 
+	var allowableNetworks = [ '://10.',       // allowed: [http|https]://10.x.x.x 
 				  '://www.mytestdomain.com'  // allowed: [http|https]://www.mytestdomain.com...
 				];
 	var urlCount = 0;
